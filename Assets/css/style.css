@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Shrikhand&display=swap');
+
+
+:root{
+    --Main:#6800F0;
+    --Title:#144994;
+  }
+  
+*{
+    font-family:'Nunito';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body a{
+    text-decoration: none;
+    color:none;
+}
+
+.page-content{
+    background: linear-gradient(328deg, #ffffff, #f7ece1, #e7d3ff);
+    background-size: 600% 600%;
+    animation: backgroundGradient 31s ease infinite;
+}
+
+p{
+    font-size:16px;
+}
+
+h2{
+    font-family:"Poppins";
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--Title);
+}
+
+ol, ul{
+    margin-top: -10px;
+}
+
+#about{
+    display:flex;
+    align-items: center;
+    /* background-image: url("Assets/images/about-background.png"); */
+    /* background-size: 1440px 880px; */
+    justify-content: center;
+}
+
+#about-content{
+    /* max-height: 600px; */
+    justify-content: center;
+    margin:60px 30px;
+}
+
+#about-title{
+    margin-bottom:1.5rem;
+}
+
+.about-btn{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--Main);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.about-btn:hover{
+    color: var(--Main);
+    background-color: white;
+    border-color: var(--Main);
+}
+
+#about-text{
+    margin-top:3rem;
+}
+
+#projects{
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.project-overview img{
+    border-radius: 10px;
+}
+.footer-right{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.footer-right p, .footer-right span{
+    font-size:12px;
+    color: #6c757d;
+}
+
+.backbtn{
+    background:none;
+    border:none;
+    top:80px;
+    position:absolute;
+    color:var(--Title);
+    align-content: center;
+    z-index:1;
+}
+
+.backbtn a{
+    color:var(--Title);
+}
+
+
+.topimg{
+    z-index:-1;
+}
+
+.summary{
+    margin-top:15px;
+}
+
+.summary-title{
+    font-family:"Poppins";
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--Title);
+}
+
+.summary-title-light{
+    font-weight:500;
+    color:var(--Title);
+    font-size: 20px;
+}
+
+.main-sec{
+    margin-top:60px;
+    margin-bottom:60px;
+    
+}
+
+.col{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: var(--Title);
+    color: white;
+}
+
+#skysales-title{
+    font-family:"Shrikhand";
+}
+
+@keyframes backgroundGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+

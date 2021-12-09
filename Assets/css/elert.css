@@ -1,0 +1,8 @@
+.concept-icon{
+    width:100px;
+    height:100px;
+    object-fit: scale-down;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

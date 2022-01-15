@@ -1,0 +1,9 @@
+:root{
+    --Main:#B982FF;
+    --Title:#34524F;
+  }
+  
+.caption{
+    font-size: 12px;
+    color:#34524F;
+}
